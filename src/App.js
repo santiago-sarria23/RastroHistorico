@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Section from './components/Section';
-import InteractiveMap from './components/InteractiveMap';
+// import InteractiveMap from './components/InteractiveMap';
 import EmergencyNumbers from './components/EmergencyNumbers';
 import EmergencyFloatingWidget from './components/EmergencyFloatingWidget';
 import TransportSection from './components/TransportSection';
@@ -118,7 +118,7 @@ const App = () => {
         icon={ShoppingBag}
         onImageChange={(itemId, newImageUrl) => handleImageChange('almacenes', itemId, newImageUrl)}
       />
-      <InteractiveMap />
+      {/* <InteractiveMap /> */}
       <TransportSection vuelos={vuelos} buses={buses} />
       <EmergencyNumbers />  
       {/* Widget flotante de emergencias */}
